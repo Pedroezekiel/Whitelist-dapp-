@@ -5,12 +5,13 @@
   justify-content: center;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
+  background-color: rgb(51, 60, 58);
 }
 
 .footer {
   display: flex;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid rgba(189, 113, 202, 0.667);
   justify-content: center;
   align-items: center;
 }
@@ -24,19 +25,21 @@
 .title {
   font-size: 2rem;
   margin: 2rem 0;
+  color: aliceblue;
 }
 
 .description {
   line-height: 1;
   margin: 2rem 0;
   font-size: 1.2rem;
+  color:aliceblue;
 }
 
 .button {
   border-radius: 4px;
   background-color: blue;
   border: none;
-  color: #ffffff;
+  color: aliceblue;
   font-size: 15px;
   padding: 20px;
   width: 200px;
