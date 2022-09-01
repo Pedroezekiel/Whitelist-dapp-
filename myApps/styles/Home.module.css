@@ -17,15 +17,16 @@
 }
 
 .image {
-  width: 50%;
+  width: 70%;
   height: 50%;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 
 .title {
   font-size: 2rem;
   margin: 2rem 0;
   color: aliceblue;
+  margin-left:  6rem; 
 }
 
 .description {
@@ -33,6 +34,7 @@
   margin: 2rem 0;
   font-size: 1.2rem;
   color:aliceblue;
+  margin-left:  6rem; 
 }
 
 .button {
@@ -45,6 +47,7 @@
   width: 200px;
   cursor: pointer;
   margin-bottom: 2%;
+  margin-left:  6rem; 
 }
 @media (max-width: 1000px) {
   .main {
@@ -52,5 +55,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left:  6rem; 
   }
 }
